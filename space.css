@@ -1,0 +1,75 @@
+/* gold and purple
+59 days remaining to complete this project */
+h1{
+    color: gold;
+    background-color: purple;
+    text-align: center;
+    padding: 1.3rem;
+    border: 4px solid;
+    border-bottom-color: purple;
+    border-top-color: purple;
+    border-left-color: gold;
+    border-right-color: gold;
+    border-radius: 2rem;
+    outline: 5px double gold;
+    outline-offset: -5px;
+}
+
+p{
+    color: purple;
+    background-color: gold;
+    padding: 1.3rem;
+    text-align: center;
+    border: 4px solid;
+    border-bottom-color: gold;
+    border-top-color: gold;
+    border-left-color: purple;
+    border-right-color: purple;
+    border-radius: 2rem;
+    outline: 4px double purple;
+    outline-offset: -4px;
+}
+
+.whole{
+    background: purple ;
+    border: 4px solid gold;
+    border-bottom-color:gold;
+    border-top-color: gold;
+    border-right-color: purple ;
+    border-left-color: purple ;
+    border-radius: 2rem;
+    outline: 5px double gold;
+    outline-offset: -5px;
+    text-align: center;
+    padding: 3rem;
+}
+
+#top{
+    padding: 1.5rem;
+    border: 4px double;
+    border-bottom-color: gold;
+    border-top-color: gold;
+    border-left-color: purple ;
+    border-right-color: purple ;
+    background-color: gold;
+    margin: auto;
+    font-size: 1.3rem;
+    border-radius: 50%;
+}
+
+#home{
+    padding: 1.5rem;
+    border: 4px double;
+    border-bottom-color: gold;
+    border-top-color: gold;
+    border-left-color: purple ;
+    border-right-color: purple ;
+    background-color: gold; 
+    margin: auto;
+    font-size: 1.3rem;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+}

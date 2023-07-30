@@ -1,0 +1,74 @@
+h1{
+    color: red;
+    background-color: cyan;
+    padding: 1.3rem;
+    text-align: center;
+    font-style: italic;
+    border: 4px solid;
+    border-top-color: cyan;
+    border-bottom-color: cyan;
+    border-left-color: red;
+    border-right-color: red;
+    border-radius: 2rem;
+    outline: 4px double red;
+    outline-offset: -4px;
+}
+
+p{
+    text-align: center;
+    color: black;
+    background-color: red;
+    padding: 1.3rem;
+    border: 4px solid;
+    border-top-color: red;
+    border-bottom-color: red;
+    border-left-color: cyan;
+    border-right-color: cyan;
+    border-radius: 2rem;
+    outline: 4px double cyan;
+    outline-offset: -4px;
+}
+
+.whole{
+    background: red;
+    border: 4px solid;
+    border-bottom-color:cyan;
+    border-top-color: cyan;
+    border-right-color: red;
+    border-left-color: red;
+    border-radius: 2rem;
+    outline: 5px double cyan;
+    outline-offset: -5px;
+    text-align: center;
+    padding: 3rem;
+}
+
+#top{
+    padding: 1.5rem;
+    border: 4px double;
+    border-bottom-color: cyan;
+    border-top-color: cyan;
+    border-left-color: red;
+    border-right-color: red;
+    background-color: cyan;
+    margin: auto;
+    font-size: 1.3rem;
+    border-radius: 50%;
+}
+
+#home{
+    padding: 1.5rem;
+    border: 4px double;
+    border-bottom-color: cyan;
+    border-top-color: cyan;
+    border-left-color: red;
+    border-right-color: red;
+    background-color: cyan; 
+    margin: auto;
+    font-size: 1.3rem;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+}

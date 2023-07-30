@@ -1,0 +1,56 @@
+/* orange,gold,blue,cyan theme */
+
+body{
+    padding: 1.1rem;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 4px solid;
+    border-top-color: orangered;
+    border-bottom-color: gold;
+    border-left-color: blue;
+    border-right-color: cyan;
+    border-radius: 2rem;
+    outline: 4px double white;
+    outline-offset: -4px;
+}
+
+h1{
+    padding: 1.5rem;
+    margin: 0.5rem auto;
+    background-color: black;
+    color: whitesmoke;
+    border: 4px solid black;
+    border-top-color: orangered;
+    border-bottom-color: gold;
+    border-left-color: blue;
+    border-right-color: cyan;
+    border-radius: 2rem;
+    outline: 10px dashed black;
+    outline-offset: -6px;
+}
+
+input,textarea,select{
+    font-size: 1rem;
+    padding: 0.1;
+    color: white;
+    background-color: black;
+    border: 5px solid;
+    border-top-color: gold;
+    border-bottom-color: orangered;
+    border-left-color: cyan;
+    border-right-color: blue;
+}
+
+button{
+    padding: 1.1rem;
+    font-style: italic;
+    background-color: white;
+    border: 4px solid;
+    border-top-color: orangered;
+    border-bottom-color: cyan;
+    border-left-color: orangered;
+    border-right-color: cyan;
+    border-radius: 2rem;
+}

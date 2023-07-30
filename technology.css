@@ -1,0 +1,75 @@
+/* blue and yellow theme */
+h1{
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    padding: 1.5rem;
+    border: 4px solid;
+    border-top-color: blue;
+    border-bottom-color: blue;
+    border-left-color: yellow;
+    border-right-color: yellow;
+    border-radius: 2rem;
+    outline: 4px double blue;
+    outline-offset: -4px;
+}
+
+p{
+    background-color: blue;
+    color: yellow;
+    padding: 1.3rem;
+    text-align: center;
+    border: 4px solid yellow;
+    border-top-color: blue;
+    border-bottom-color: blue;
+    border-left-color: yellow;
+    border-right-color: yellow;
+    border-radius: 2rem;
+    outline: 4px double yellow;
+    outline-offset: -4px;
+}
+
+.whole{
+    background: yellow;
+    border: 4px solid;
+    border-bottom-color: yellow;
+    border-top-color: yellow;
+    border-right-color: blue;
+    border-left-color: blue;
+    border-radius: 2rem;
+    outline: 5px double blue;
+    outline-offset: -5px;
+    text-align: center;
+    padding: 3rem;
+}
+
+#top{
+    padding: 1.5rem;
+    border: 4px double;
+    border-bottom-color: blue;
+    border-top-color: blue;
+    border-left-color: yellow;
+    border-right-color: yellow;
+    background-color: blue;
+    margin: auto;
+    font-size: 1.3rem;
+    border-radius: 50%;
+}
+
+#home{
+    padding: 1.5rem;
+    border: 4px double;
+    border-bottom-color: blue;
+    border-top-color: blue;
+    border-left-color: yellow;
+    border-right-color: yellow;
+    background-color: blue; 
+    margin: auto;
+    font-size: 1.3rem;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+}

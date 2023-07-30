@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="p.sundar">
+    <meta name="discription" content="contact our company">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>contact us</title>
+  </head>
+  <body>
+          <h1>Contact us</h1>
+          <form action="https://httpbin.org/post" method="post">
+              <label for="name" id="urname">
+                  Name
+              </label>   
+              <input type="name" name="person_name" id="myname" placeholder="(e.g) Andrew" required>
+              <br><br>
+              <label for="email" id="googleid">
+                  E-mail address
+              </label>
+              <input type="name" name="person's_email" id="email" placeholder=" (e.g) xxyyzz2010@gmail.com" required>
+              <br><br>
+              <label for="password" id="word">
+                  password:
+              </label>
+              <input type="password" name="password" id="pass" placeholder="urPassword" required> 
+              <br><br>
+              <label for="phone" id="ph">
+                        phone number:
+                    </label>
+                    <input type="tel" name="phone"  id="phonen" requiredpattern="[0-9]-{3} [0-9]-{3} [0-9]-{4}" placeholder="919-999-9999" required>
+                        <br><br>
+              <label for="star" >
+                  No. of stars for our website</label>
+              <select>
+              <option value="1">
+                  🌟                 
+              </option>
+              <option value="2">
+                  🌟🌟                 
+              </option>
+              <option value="3">
+                  🌟🌟🌟                 
+              </option>
+              <option value="4">
+                  🌟🌟🌟🌟                 
+              </option>
+              <option value="5">
+                  🌟🌟🌟🌟🌟                 
+              </option>
+              </select>
+              <br><br>
+              <label>
+                  Reason for contacting us
+              </label>
+              <br>
+              <textarea placeholder="your message" cols="19" rows="4"></textarea>
+              <br><br>
+              <button type="submit">
+                  SUBMIT 
+              </button>
+              <button type="reset">
+                  RESET 
+              </button>
+          </form>  
+</body>
+</html>
